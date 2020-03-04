@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibre;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    background: url(../images/background.jpg) 50% 50%;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover no-repeat;
+}
+.logo{
+    margin: 1.5rem ;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+}
+.upper-nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav ul{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.nav ul li{
+    list-style: none;
+    padding: 0 1.4rem 20px 0;
+}
+.nav ul li a{
+    color:#ffffff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+ul li:hover{
+    border-bottom: #ffffff solid 2px;
+}
+.side-card{
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #ffffff;
+    height: 71vh;
+    width: 32%;
+    border-radius: 7px;
+}
+.side-card input{
+    width: 100%;
+    height: 2.5rem;
+}
+.side-card h1{
+    margin-bottom: 1rem;
+}
+.submit{
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 80%;
+    background-color: plum;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.bottom{
+   position: absolute;
+   bottom: 1rem;right: 1.3rem;
+}
+.bottom a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+.container{
+    width: 88%;
+    margin-left: 6%;
+    overflow: hidden;
+}
+.secondnavlink{
+    display: flex;
+    flex-direction: row;
+    /* padding: 1rem; */
+    margin-bottom: 4rem;
+}
+.flex1, .flex2, .flex3{
+    height: 6rem;
+    width: 30%;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 2px  2px grey;
+    overflow: hidden;
+    /* margin: 0 2rem; */
+}
+.flex1,.flex2{
+    margin-right: 3rem;
+}
+h5{
+    margin-left: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 9;
+}
+.secondnavlink img{
+height: 6rem;
+width: 8rem;
+}
+.container h4{
+    font-size: 1.5rem;
+    margin: 28px 0 28px 0;
+}
+.second-bg{
+    position: relative;
+    background-image: url("../images/background-nav.webp");
+    height: 40vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 4rem;
+}
+.second-btn{
+    position: absolute;
+    bottom: 2rem;
+    left: 26rem;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+.flex-cards{
+    display: flex;;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.flex-cards img{
+    width: 222px;
+    height: 298px;
+    border-radius: 8px;
+}
+.a-below-flex{
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+.a-below-flex:hover{
+    background: grey;
+    opacity: 0.8;
+    border-radius: 5px;
+    
+}
+.grid-cards{
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 400px;
+    grid-column-gap: 1em;
+    grid-row-gap: 3em;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.grid-cards  img{
+    height: 80%;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.text{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+a{
+    cursor: pointer;
+}
+.grid2{
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(5,1fr);
+}
+.grid3{
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1.2em;
+    margin-bottom: 3em;
+}
+.grid3 img{
+    height: 274px;
+    width: 100%;
+    border-radius: 9px;
+}
+.gridTexts{
+    width: 85%;
+    margin-top: 10px;
+}
+.btns{
+    margin-top: 10em;
+    margin-bottom: 3em;
+}
+.arrow{
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-left: 20em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    border: #ababab 1px solid;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+li{
+    margin-top: 0.8em;
+    list-style: none;
+}
+.copyright{
+    margin-top: 1em;
+}
+.footer2{
+    margin-bottom: 2em;
+}
+.footer2 a{
+    color: #000;
+}
+.sidebar{
+    margin-top: -1em;
+    float: right;
+}
+.social{
+    margin-left: 2em;
+    float: right;
+    padding-left: 1.2em;
+}
+.social .fa{
+    font-size: 1.3em;
+    margin-left: 1em;
+}
+.fa-star{
+    color: rgb(238, 31, 135);
+    margin-right: 5px;
+}
